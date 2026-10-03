@@ -12,10 +12,11 @@ public class Multadd {
 		double secondNumber = multadd (0.5, Math.cos(Math.PI/4), Math.sin(Math.PI/4));
 		System.out.println ("multadd = " + secondNumber);
 		
+		//assumed base 10, log 10 + log 20 = 2.30103
 		double thirdNumber = multadd (1.0, Math.log(10.0)/Math.log(10.0), Math.log(20.0)/Math.log(10.0));
 		System.out.println ("multadd = " + thirdNumber);
 		
-		System.out.println ("multadd = " + expSum(1.0));
+		System.out.println ("expSum = " + expSum(1.0));
 	}
 		
 	public static double expSum (double x) {
